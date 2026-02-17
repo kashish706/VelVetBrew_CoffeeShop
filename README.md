@@ -1,4 +1,4 @@
-# ☕ Velvet Brew – Premium Coffee Shop Website
+# ☕ Velvet Brew – Coffee Shop Website
 
 Velvet Brew is a fully responsive multi-page coffee shop website built using HTML, CSS, Bootstrap, and JavaScript.  
 It represents a luxury café brand with elegant design, smooth animations, and interactive features.
