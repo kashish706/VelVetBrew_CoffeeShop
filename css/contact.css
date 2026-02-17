@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5eee6;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: linear-gradient(90deg, #2b0f0f, #3b1414);
+    padding: 4px 0;  
+    transition: top 0.4s ease-in-out;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+.navbar-hide {
+    transform: translateY(-100%);
+}
+.nav-link {
+    color: #ffffff ;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: #d4af37 ;
+}
+.logo-img {
+    height: 70px;       
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact-hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(26,10,10,0.75), rgba(26,10,10,0.75)),
+                url('../images/contact.jpg') center/cover no-repeat;
+    color: white;
+    padding-top: 80px; 
+}
+.contact-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #d4af37;
+    margin-bottom: 15px;
+    animation: slideUp 1s ease forwards;
+    opacity: 0;
+}
+.contact-hero p {
+    font-size: 18px;
+    animation: slideUp 1s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@media (max-width: 768px) {
+    .contact-hero {
+        height: 50vh;
+        padding: 100px 20px 60px;
+    }
+    .contact-hero h1 {
+        font-size: 32px;
+    }
+    .contact-hero p {
+        font-size: 15px;
+    }
+}
+.contact-section {
+    background-color: #f5eee6;
+    color: #3b1414;
+}
+.contact-wrapper {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+.contact-title {
+    font-family: 'Playfair Display', serif;
+    color: #3b1414;
+}
+.contact-input {
+    background: #f9f6f2;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 12px 20px;
+}
+.contact-input::placeholder {
+    color: #777;
+}
+.contact-input:focus {
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+    border-color: #d4af37;
+}
+.contact-btn {
+    background-color: #3b1414;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.contact-btn:hover {
+    background-color: #d4af37;
+    color: #3b1414;
+}
+.contact-info {
+    background: #f9f6f2;
+    border-radius: 15px;
+}
+.contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact-detail i {
+    font-size: 20px;
+    color: #d4af37;
+    margin-right: 10px;
+}

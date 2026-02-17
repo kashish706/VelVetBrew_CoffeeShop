@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu | Velvet Brew</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/menu.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo2.png" alt="Velvet Brew Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="menu-hero d-flex align-items-center text-center">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <p>Crafted with passion. Served with elegance.</p>
+        </div>
+    </section> 
+    <section class="menu-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <button class="btn filter-btn active" onclick="filterMenu('all', this)">All</button>
+                <button class="btn filter-btn" onclick="filterMenu('hot', this)">Hot Coffee</button>
+                <button class="btn filter-btn" onclick="filterMenu('cold', this)">Cold Coffee</button>
+                <button class="btn filter-btn" onclick="filterMenu('dessert', this)">Desserts</button>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 menu-item hot">
+                    <div class="menu-card">
+                        <img src="images/capu.jpg" class="img-fluid">
+                        <h5>Cappuccino</h5>
+                        <p>₹219</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item hot">
+                    <div class="menu-card">
+                        <img src="images/velvellate.jpg" class="img-fluid">
+                        <h5>Velvet Latte</h5>
+                        <p>₹249</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item hot">
+                    <div class="menu-card">
+                        <img src="images/darkla.jpg" class="img-fluid">
+                        <h5>Dark Mocha</h5>
+                        <p>₹269</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item cold">
+                    <div class="menu-card">
+                        <img src="images/coldbrew.jpg" class="img-fluid">
+                        <h5>Cold Brew</h5>
+                        <p>₹239</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item cold">
+                    <div class="menu-card">
+                        <img src="images/Caramel.jpg" class="img-fluid">
+                        <h5>Caramel Frappe</h5>
+                        <p>₹259</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item cold">
+                    <div class="menu-card">
+                        <img src="images/iced.jpg" class="img-fluid">
+                        <h5>Iced Latte</h5>
+                        <p>₹229</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item dessert">
+                    <div class="menu-card">
+                        <img src="images/Classic.jpg" class="img-fluid">
+                        <h5>Classic Cheesecake</h5>
+                        <p>₹199</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item dessert">
+                    <div class="menu-card">
+                        <img src="images/Tiramisu.jpg" class="img-fluid">
+                        <h5>Tiramisu</h5>
+                        <p>₹219</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 menu-item dessert">
+                    <div class="menu-card">
+                        <img src="images/Butter.jpg" class="img-fluid">
+                        <h5>Butter Croissant</h5>
+                        <p>₹149</p>
+                        <button class="btn add-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 class="footer-brand">Velvet Brew</h4>
+                    <p>Experience handcrafted coffee blended with luxury and warmth. 
+                    Every sip tells a story of passion and perfection.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="footer-title">Contact Us</h5>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i> 123 Coffee Street, Punjab</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i> +91 98765 xxxxx</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i> info@velvetbrew.com</p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">© 2026 Velvet Brew. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

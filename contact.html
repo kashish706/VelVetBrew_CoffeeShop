@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Velvet Brew</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/contact.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo2.png" alt="Velvet Brew Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="contact-hero d-flex align-items-center text-center">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you.</p>
+        </div>
+    </section>
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="contact-wrapper p-4 p-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div id="contactSuccess" class="alert alert-success d-none">
+                            🎉 Message sent successfully!
+                        </div>
+                        <h3 class="contact-title mb-4">Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control contact-input" placeholder="Full Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control contact-input" placeholder="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control contact-input" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn contact-btn w-100">Send Message </button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-info p-4">
+                            <h3 class="contact-title mb-4">Get In Touch</h3>
+                            <div class="contact-detail">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>123 Coffee Street, Punjab</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>+91 98765 xxxxx</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="bi bi-envelope-fill"></i>
+                                <span>info@velvetbrew.com</span>
+                            </div>
+                            <div class="map mt-4">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3410.0773502335755!2d75.68206667560172!3d31.273955574327687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1seastwood!5e0!3m2!1sen!2sin!4v1771154741053!5m2!1sen!2sin"
+                                        width="100%" height="220"
+                                        style="border:0; border-radius:12px;"
+                                        allowfullscreen="" loading="lazy">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
