@@ -5,6 +5,11 @@ It represents a luxury café brand with elegant design, smooth animations, and i
 
 ---
 
+## 🚀 Live Preview
+[VelVet Brew Coffee Shop ](https://kashish706.github.io/VelVetBrew_CoffeeShop/)
+
+---
+
 ## 🌟 Live Features
 
 - Responsive design (Mobile + Tablet + Desktop)
