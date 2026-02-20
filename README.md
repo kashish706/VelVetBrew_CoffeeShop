@@ -127,7 +127,7 @@ Velvet Brew follows a luxury coffee aesthetic:
 ## 👩‍💻 Developed By
 
 **Kashish**  
-Velvet Brew – Premium Coffee Experience
+Velvet Brew Coffee Shop Website
 
 ---
 
