@@ -51,7 +51,7 @@ Velvet-Brew/
 - HTML5
 - CSS3
 - Bootstrap 5
-- JavaScript (Vanilla JS)
+- JavaScript
 - Bootstrap Icons
 - Google Fonts
 
