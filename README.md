@@ -113,17 +113,6 @@ Velvet Brew follows a luxury coffee aesthetic:
 
 ---
 
-## 🌐 Deployment (GitHub Pages)
-
-1. Push project to GitHub
-2. Go to Repository Settings
-3. Click "Pages"
-4. Select Branch → `main`
-5. Save
-6. Your site will be live
-
----
-
 ## 👩‍💻 Developed By
 
 **Kashish**  
